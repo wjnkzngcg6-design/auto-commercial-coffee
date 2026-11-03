@@ -1,0 +1,124 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets/
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.cproject
+.settings/
+*.iml
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+
+# Node tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# C/C++ and firmware build outputs
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.d
+*.su
+*.a
+*.lib
+*.exe
+*.out
+compile_commands.json
+
+# Build directories
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+Objects/
+Listings/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# STM32CubeIDE / Eclipse embedded
+.mxproject
+*.launch
+
+# Keil
+*.uvguix.*
+*.uvoptx
+*.build_log.htm
+*.lnp
+
+# IAR
+*.ewd
+*.ewt
+Backup*/
+
+# Debug probes
+JLinkLog.txt
+JLinkSettings.ini
+*.jlink
+
+# KiCad local and cache files
+fp-info-cache
+*-backups/
+*.kicad_prl
+~*.lck
+\#auto_saved_files\#
+
+# Altium generated folders
+__Previews/
+History/
+Project Logs*/
+
+# CAD lock and backup files
+*.FCBak
+*.fcstd1
+*.dwl
+*.dwl2
